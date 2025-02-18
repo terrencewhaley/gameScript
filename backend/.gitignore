@@ -71,3 +71,6 @@ node_modules/
 #DT Store
 .DS_Store
 backend/DS_Store
+
+functions/.env
+

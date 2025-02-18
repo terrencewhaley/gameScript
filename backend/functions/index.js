@@ -13,7 +13,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = process.env.SPORTSDATAIO_API_KEY; // Free Trial API key
+const API_KEY = process.env.SPORTSDATA_API_KEY; // Free Trial API key
 const SEASON = "2024"; // Define the season to fetch data for
 const BASE_URL = "https://api.sportsdata.io/v3/nfl/stats/json";
 
